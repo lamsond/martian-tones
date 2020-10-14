@@ -19,6 +19,8 @@ public class HelloWorld extends Application {
     public void start(Stage primaryStage) throws Exception{
     	Parent root = FXMLLoader.load(getClass().getResource("hellofx.fxml"));
         primaryStage.setTitle("Hello World!");
+        
+        // it still works it's waterproof!!!
   
         primaryStage.setScene(new Scene(root, 400, 300));
         primaryStage.show();
